@@ -1,0 +1,123 @@
+
+-----------------------------------------------------------
+                  FUNCTION TEST RESULTS
+no. calls       time taken       time/call       function
+1000          0.0508662000    0.0000508662       get_all_moves  
+1000          0.0359130000    0.0000359130       get_all_attacks
+1000          1.9635033000    0.0019635033       evaluate       
+1000          0.0347625001    0.0000347625       is_in_checkmate
+1000          1.7077919000    0.0017077919       is_in_stalemate
+1000          0.0110039000    0.0000110039       is_in_insufficient_material
+1000          0.0000790000    0.0000000790       is_in_fifty_move_rule
+1000          0.0211390001    0.0000211390       is_in_repetition
+1000          0.0123999000    0.0000123999       generate_material_count
+.
+-----------------------------------------------------------
+                    PERFT TEST RESULTS
+    depth            time taken        positions per second
+
+    1            0.04296994209289551        465.4416325896498
+
+    2            0.8750863075256348        457.0977703113957
+
+    3            19.95114803314209        446.1898626190501
+
+Total time taken for perft depths 1-3: 19.95114803314209
+Total positions viewed: 9323
+.
+-----------------------------------------------------------
+                  BOTTLENECK TEST RESULTS
+         6718144 function calls (6717724 primitive calls) in 2.655 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    19484    0.740    0.000    1.238    0.000 array_board.py:92(hash_position)
+    10122    0.199    0.000    1.105    0.000 array_arbiter.py:101(get_all_attacks)
+   623454    0.175    0.000    0.175    0.000 piece.py:79(__str__)
+    84314    0.147    0.000    0.192    0.000 pawn.py:70(get_attacks)
+  1223169    0.132    0.000    0.132    0.000 piece.py:40(get_colour)
+    31629    0.101    0.000    0.164    0.000 bishop.py:25(get_moves)
+    31629    0.100    0.000    0.145    0.000 rook.py:25(get_moves)
+    21082    0.095    0.000    0.187    0.000 knight.py:25(get_moves)
+   633576    0.086    0.000    0.086    0.000 piece.py:43(get_position)
+   896488    0.079    0.000    0.079    0.000 array_board.py:84(get_piece)
+   623488    0.074    0.000    0.074    0.000 piece.py:55(get_active)
+    10543    0.061    0.000    0.140    0.000 king.py:26(get_moves)
+   311710    0.046    0.000    0.046    0.000 {method 'lower' of 'str' objects}
+    85234    0.042    0.000    0.057    0.000 array_move.py:38(additional_settup)
+   311744    0.040    0.000    0.040    0.000 {method 'upper' of 'str' objects}
+    85234    0.036    0.000    0.118    0.000 array_move.py:31(__init__)
+    19484    0.034    0.000    1.328    0.000 array_move.py:222(make_update)
+   376473    0.032    0.000    0.032    0.000 board.py:68(get_board)
+   365530    0.031    0.000    0.031    0.000 {built-in method builtins.len}
+    10543    0.029    0.000    0.164    0.000 queen.py:27(get_moves)
+   221035    0.029    0.000    0.029    0.000 piece.py:37(get_type)
+    85234    0.024    0.000    0.082    0.000 move.py:25(__init__)
+      421    0.023    0.000    2.408    0.006 array_arbiter.py:32(filter_moves)
+    10543    0.022    0.000    0.029    0.000 king.py:74(can_short_castle)
+   123782    0.021    0.000    0.021    0.000 {method 'append' of 'list' objects}
+    10543    0.020    0.000    0.027    0.000 king.py:112(can_long_castle)
+      800    0.016    0.000    0.022    0.000 array_arbiter.py:185(generate_material_count)
+    19484    0.014    0.000    0.032    0.000 array_move.py:194(handle_placing_piece)
+    21086    0.014    0.000    0.014    0.000 piece.py:16(__init__)
+     9742    0.012    0.000    0.623    0.000 board.py:130(increment_position_hash)
+     3368    0.012    0.000    0.030    0.000 pawn.py:25(get_moves)
+     9742    0.011    0.000    0.638    0.000 board.py:146(decrement_position_hash)
+    19484    0.011    0.000    0.018    0.000 array_move.py:59(handle_remove_pieces)
+    29226    0.011    0.000    0.015    0.000 array_board.py:123(add_piece)
+    10122    0.011    0.000    1.129    0.000 arbiter.py:55(is_in_check)
+     9742    0.010    0.000    0.706    0.000 move.py:134(undo_move)
+      421    0.010    0.000    0.071    0.000 array_arbiter.py:132(get_all_moves)
+     9742    0.010    0.000    0.692    0.000 move.py:106(make_move)
+    40604    0.009    0.000    0.009    0.000 piece.py:61(update_position)
+    19484    0.009    0.000    0.009    0.000 {method 'join' of 'str' objects}
+    29226    0.007    0.000    0.007    0.000 array_board.py:147(remove_piece)
+    10122    0.007    0.000    0.012    0.000 array_arbiter.py:166(look_for_check)
+     9742    0.006    0.000    0.010    0.000 stack.py:13(pop)
+    10543    0.005    0.000    0.013    0.000 rook.py:17(__init__)
+    10543    0.005    0.000    0.011    0.000 bishop.py:17(__init__)
+     9742    0.004    0.000    0.005    0.000 stack.py:9(push)
+    19484    0.003    0.000    0.003    0.000 board.py:212(flip_colour)
+    21086    0.003    0.000    0.003    0.000 piece.py:46(get_times_moved)
+     9742    0.003    0.000    0.009    0.000 board.py:100(push_move)
+    10122    0.003    0.000    0.005    0.000 array_arbiter.py:155(get_king_position)
+     9742    0.003    0.000    0.013    0.000 board.py:92(pop_last_move)
+    28386    0.003    0.000    0.003    0.000 move.py:173(get_flag)
+      400    0.003    0.000    2.484    0.006 bot.py:53(evaluate)
+     9742    0.003    0.000    0.003    0.000 piece.py:52(decrement_times_moved)
+     9742    0.002    0.000    0.002    0.000 piece.py:49(increment_times_moved)
+     9742    0.002    0.000    0.002    0.000 {method 'pop' of 'list' objects}
+     9356    0.001    0.000    0.001    0.000 move.py:181(get_target_piece)
+    421/1    0.001    0.000    2.655    2.655 bot.py:85(search)
+     9742    0.001    0.000    0.001    0.000 stack.py:6(is_empty)
+    10122    0.001    0.000    0.001    0.000 board.py:222(get_king)
+    14714    0.001    0.000    0.001    0.000 board.py:204(get_colour)
+     6736    0.001    0.000    0.001    0.000 {method 'extend' of 'list' objects}
+      400    0.001    0.000    2.413    0.006 arbiter.py:105(is_in_stalemate)
+     7018    0.001    0.000    0.001    0.000 board.py:160(get_half_move_clock)
+     6618    0.001    0.000    0.001    0.000 board.py:193(set_half_move_clock)
+     6618    0.001    0.000    0.001    0.000 board.py:193(set_half_move_clock)
+     6618    0.001    0.000    0.001    0.000 board.py:185(reset_half_move_clock)
+     3124    0.001    0.000    0.001    0.000 board.py:176(decrement_half_move_clock)
+     3124    0.000    0.000    0.000    0.000 board.py:168(increment_half_move_clock)
+      400    0.000    0.000    0.046    0.000 arbiter.py:79(is_in_checkmate)
+      400    0.000    0.000    0.012    0.000 arbiter.py:130(is_in_insufficient_material)
+      400    0.000    0.000    0.000    0.000 arbiter.py:177(is_in_fifty_move_rule)
+      400    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+      400    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      420    0.000    0.000    0.000    0.000 move.py:185(get_is_check)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       68    0.000    0.000    0.000    0.000 piece.py:58(set_active)
+       20    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    2.655    2.655 test_performance.py:184(profile_search)
+
+
+.
+-----------------------------------------------------------
+                SYSTEM RESOURCE TEST RESULTS
+resource                measurement                unit
+Memory                  98.66336718750             MB
+CPU                     98.45469613260             %
+.
+----------------------------------------------------------------------

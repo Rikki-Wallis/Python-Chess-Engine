@@ -1,0 +1,26 @@
+try:
+    from src.constants.constPieces import *
+except:
+    from constants.constPieces import *
+
+
+CAPTURE = 15
+CHECK = 30
+DOUBLED_PAWN_PENALTY = 10
+ISOLATED_PAWN_PENALTY = 15
+BACKWARD_PAWN_PENALTY = 12
+PASSED_PAWN_BONUS = 50
+CONNECTED_PAWN_BONUS = 8
+PAWN_ISLAND_PENALTY = 10
+BLOCKED = 20
+
+STARTING_POSITIONS_PENALTIES = {
+    PAWN: 10,
+    KNIGHT : 40,
+    ROOK : 10,
+    BISHOP : 40,
+    QUEEN : 10,
+    KING : 5,
+}
+
+PIECE_VALUE_MG = { PAWN : 124, ROOK : 1276, KNIGHT : 781, BISHOP : 825, QUEEN : 2583, KING : 0 }

@@ -1,0 +1,7 @@
+PAWN = "pawn"
+ROOK = "rook"
+BISHOP = "bishop"
+KNIGHT = "knight"
+KING = "king"
+QUEEN = "queen"
+PIECE = "piece"

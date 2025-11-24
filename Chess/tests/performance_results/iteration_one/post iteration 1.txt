@@ -1,0 +1,140 @@
+-----------------------------------------------------------
+                  FUNCTION TEST RESULTS
+no. calls       time             time/call       function    
+-----------------------------------------------------------  
+1000          0.0462611000    0.0000462611       get_all_moves  
+1000          0.0119931000    0.0000119931       get_all_attacks
+1000          1.3034360000    0.0013034360       evaluate       
+1000          0.6405885000    0.0006405885       is_in_checkmate
+1000          0.6505657000    0.0006505657       is_in_stalemate
+1000          0.0019691000    0.0000019691       is_in_insufficient_material
+1000          0.0000769000    0.0000000769       is_in_fifty_move_rule
+1000          0.0055267000    0.0000055267       is_in_repetition
+1000          0.0015928000    0.0000015928       generate_material_count
+-----------------------------------------------------------
+.
+-----------------------------------------------------------
+               PERFT WITH PERFT TEST RESULTS
+depth       expected        actual        time        pos/sec
+-----------------------------------------------------------  
+1           20           20            0.001s           19,645
+2           400          400           0.021s           19,043
+3           8,902        8,902         0.444s           20,068
+F
+-----------------------------------------------------------
+               PERFT WITH SEARCH TEST RESULTS
+depth       expected        actual        time        pos/sec
+-----------------------------------------------------------  
+
+1           21              21            0.032s         631
+
+2           421             421           0.645s         620
+
+3           9,323           9,323        14.451s         616
+-----------------------------------------------------------
+.
+-----------------------------------------------------------
+                  BOTTLENECK TEST RESULTS
+-----------------------------------------------------------
+         3965497 function calls (3965077 primitive calls) in 1.675 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    37288    0.374    0.000    0.505    0.000 bitboard.py:132(hash_position)
+    19024    0.159    0.000    0.555    0.000 move_generator.py:129(get_all_attacks)
+   100046    0.148    0.000    0.244    0.000 bit_sliding.py:69(get_sliding_attacks)
+  1388670    0.135    0.000    0.135    0.000 {method 'bit_length' of 'int' objects}
+    37288    0.110    0.000    0.163    0.000 bitboard.py:176(update_occupancy)
+    37288    0.060    0.000    0.802    0.000 bit_move.py:146(make_update)
+    20666    0.054    0.000    0.061    0.000 bit_knight.py:58(get_knight_attacks)
+   447456    0.046    0.000    0.046    0.000 {method 'startswith' of 'str' objects}
+    37288    0.044    0.000    0.052    0.000 bit_move.py:88(handle_remove_pieces)
+    19845    0.044    0.000    0.051    0.000 bit_king.py:85(get_king_attacks)
+   256614    0.043    0.000    0.043    0.000 {method 'split' of 'str' objects}
+   545743    0.037    0.000    0.037    0.000 board.py:68(get_board)
+    59535    0.036    0.000    0.036    0.000 precompute.py:41(generate_rook_movement_mask)
+      821    0.032    0.000    1.474    0.002 bit_arbiter.py:99(filter_moves)
+    40511    0.029    0.000    0.029    0.000 precompute.py:96(generate_bishop_movement_mask)
+    18404    0.027    0.000    0.037    0.000 bit_move.py:36(additional_settup)
+    37288    0.019    0.000    0.022    0.000 bit_move.py:121(handle_placing_piece)
+   114825    0.019    0.000    0.019    0.000 {method 'items' of 'dict' objects}
+     6568    0.018    0.000    0.057    0.000 bit_pawn.py:26(get_pawn_moves)
+    18644    0.017    0.000    0.452    0.000 move.py:106(make_move)
+    18644    0.017    0.000    0.457    0.000 move.py:134(undo_move)
+      821    0.017    0.000    0.142    0.000 move_generator.py:79(get_all_moves)
+    19024    0.015    0.000    0.571    0.000 bit_arbiter.py:23(is_in_check)
+    37288    0.014    0.000    0.014    0.000 {method 'join' of 'str' objects}
+   162044    0.014    0.000    0.014    0.000 {built-in method builtins.abs}
+    18644    0.014    0.000    0.265    0.000 board.py:130(increment_position_hash)
+    25592    0.013    0.000    0.013    0.000 bit_pawn.py:158(get_pawn_attacks)
+    18644    0.012    0.000    0.266    0.000 board.py:146(decrement_position_hash)
+    18644    0.010    0.000    0.016    0.000 stack.py:13(pop)
+    55272    0.008    0.000    0.008    0.000 {method 'append' of 'list' objects}
+    18404    0.008    0.000    0.051    0.000 bit_move.py:30(__init__)
+    13136    0.007    0.000    0.118    0.000 move_generator.py:42(get_moves)
+    37288    0.006    0.000    0.006    0.000 board.py:212(flip_colour)
+    18644    0.006    0.000    0.009    0.000 stack.py:9(push)
+    18404    0.006    0.000    0.043    0.000 move.py:25(__init__)
+    18644    0.006    0.000    0.014    0.000 board.py:100(push_move)
+    18644    0.006    0.000    0.021    0.000 board.py:92(pop_last_move)
+     1642    0.005    0.000    0.022    0.000 bit_knight.py:20(get_knight_moves)
+      800    0.004    0.000    0.007    0.000 bit_arbiter.py:77(generate_material_count)
+     4926    0.004    0.000    0.024    0.000 bit_sliding.py:31(get_sliding_moves)
+    36868    0.003    0.000    0.003    0.000 move.py:173(get_flag)
+    18644    0.003    0.000    0.003    0.000 {method 'pop' of 'list' objects}
+      400    0.003    0.000    1.614    0.004 bot.py:53(evaluate)
+    18644    0.003    0.000    0.003    0.000 stack.py:6(is_empty)
+    29098    0.003    0.000    0.003    0.000 board.py:204(get_colour)
+    13136    0.002    0.000    0.002    0.000 {method 'extend' of 'list' objects}
+      821    0.002    0.000    0.009    0.000 bit_king.py:32(get_king_moves)
+    12564    0.001    0.000    0.001    0.000 board.py:185(reset_half_move_clock)
+     9600    0.001    0.000    0.001    0.000 {built-in method builtins.bin}
+    12564    0.001    0.000    0.001    0.000 board.py:193(set_half_move_clock)
+     9600    0.001    0.000    0.001    0.000 {method 'count' of 'str' objects}
+    12964    0.001    0.000    0.001    0.000 board.py:160(get_half_move_clock)
+    421/1    0.001    0.000    1.675    1.675 bot.py:85(search)
+      821    0.001    0.000    0.002    0.000 bit_king.py:126(can_short_castle)
+     6080    0.001    0.000    0.001    0.000 board.py:176(decrement_half_move_clock)
+      821    0.001    0.000    0.001    0.000 bit_king.py:155(can_long_castle)
+     6080    0.001    0.000    0.001    0.000 board.py:168(increment_half_move_clock)
+      400    0.001    0.000    0.802    0.002 bit_arbiter.py:39(is_in_checkmate)
+      400    0.001    0.000    0.801    0.002 bit_arbiter.py:58(is_in_stalemate)
+     1642    0.000    0.000    0.000    0.000 bitboard.py:213(get_rook_moved)
+      400    0.000    0.000    0.004    0.000 arbiter.py:127(is_in_insufficient_material)
+     1642    0.000    0.000    0.000    0.000 bitboard.py:199(get_king_moved)
+      400    0.000    0.000    0.000    0.000 arbiter.py:174(is_in_fifty_move_rule)
+      400    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+      802    0.000    0.000    0.000    0.000 bitboard.py:298(get_rook_pos)
+      400    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      240    0.000    0.000    0.000    0.000 bitboard.py:232(increment_king_moved)
+      420    0.000    0.000    0.000    0.000 move.py:185(get_is_check)
+      240    0.000    0.000    0.000    0.000 bitboard.py:246(decrement_king_moved)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       20    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    1.675    1.675 test_performance.py:254(profile_search)
+        2    0.000    0.000    0.000    0.000 bitboard.py:260(increment_rook_moved)
+
+
+.
+-----------------------------------------------------------
+                SYSTEM RESOURCE TEST RESULTS
+resource                measurement                unit
+-----------------------------------------------------------
+Memory                  512.60860156250             MB
+CPU                     97.14726027397             %
+-----------------------------------------------------------
+.
+======================================================================
+FAIL: test_perft_with_perft (tests.test_performance.TestPerformance.test_perft_with_perft)
+Method:
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\rikki\Desktop\FIT2107\rwal0028\Chess\tests\test_performance.py", line 89, in test_perft_with_perft
+    self.assertEqual(expected_nodes, actual_nodes,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    f"Depth {depth}: expected {expected_nodes}, got {actual_nodes}")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 197281 != 197444 : Depth 4: expected 197281, got 197444
+
+----------------------------------------------------------------------

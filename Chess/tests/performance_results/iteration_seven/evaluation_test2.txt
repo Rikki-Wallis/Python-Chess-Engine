@@ -1,0 +1,442 @@
+----------------------------------------------------------------------------------------------
+                                       TACTICAL ACCURACY
+Depth   Position ID    Best Move    Alternate    Avoid    Nuanced    Time    Material    Time
+---------------------------------------------------------------------------------------------
+1       K.01           Nf6+         -            -        h4         0.380      Rc3     0.407     
+1       K.02           Nxd4         -            -        f4         1.565      Qa4     0.421     
+1       K.03           Qf5          -            Rd1      g4         0.317      Qg3     0.285     
+1       K.04           Rxb2         -            -        h4         0.438      Qf4     0.567     
+1       K.05           Qxc1         -            -        Bxc8       0.213      Qd2     0.582     
+1       K.06           -            -            Rxa2     Rb5        0.681      Rc3     0.222     
+1       K.07           Bxe4         -            -        Bxf6       2.268      Be5     0.558     
+1       K.08           h6           -            -        Qxb6       0.132      Qc4     0.187     
+1       K.09           Be2          -            -        h4         0.532      Qc3     0.608     
+1       K.10           Nxc3         -            -        c4         0.479      Qc4     0.304     
+1       K.11           Nf5          -            -        Rd2        0.301      Qf4     0.226     
+1       K.12           Rd6          -            -        Kf2        0.212      Qe3     0.163     
+1       K.13           Nxd5         -            -        Ne3        0.138      Rf4     0.121     
+1       K.14           Rxb2         -            -        Qc4        1.166      Qe2     0.455     
+1       K.15           Bxf5         -            -        Rd1        1.165      Qg5     0.383     
+1       K.16           b4           -            -        Ke3        0.011      b4      0.009     
+1       K.17           e5           -            -        b3         2.395      Qb5     0.410     
+1       K.18           Qc8          -            -        Qxe7       0.160      Qe6     0.271     
+1       K.19           Qxd7         -            -        Nc6        0.838      Qb5     0.381     
+1       K.20           Bg4          -            -        Kg2        0.018      Bf1     0.017     
+1       K.21           Kxb5         -            -        Kxc5       0.026      Bc6     0.031     
+1       K.22           Ba7          -            -        Bf4        0.013      Bc7     0.012     
+1       K.23           Ba6          -            -        a4         0.368      Bc4     0.545     
+1       K.24           Bxc6         -            -        Kf4        0.041      Bxc6    0.025     
+1       K.25           Bxd7         -            -        Kf2        0.019      Bxd7    0.012     
+1       BK.01          Qd1+         -            -        Qxa7       0.229      Qd4     0.229     
+1       BK.02          d5           -            -        e5         0.161      Rxc6    0.138     
+1       BK.03          f5           -            -        Rd1        0.402      Qc3     0.402     
+1       BK.04          e6           -            -        Qb5        0.433      Qc4     0.228     
+1       BK.05          Nd5          a4           -        Rd1        2.318      Qc5     0.623     
+1       BK.06          g6           -            -        a4         0.050      Rd5     0.030     
+1       BK.07          Nf6          -            -        Bxe7       1.872      Qd3     0.422     
+1       BK.08          f5           -            -        h4         0.021      a4      0.021     
+1       BK.09          f5           -            -        a4         0.568      Qg4     0.364     
+1       BK.10          Ne5          -            -        Bf4        0.641      Qe3     0.334     
+1       BK.11          f4           -            -        f4         1.473      Qg4     0.497     
+1       BK.12          Bf5          -            -        Qxh7       0.203      Qg4     0.288     
+1       BK.13          b4           -            -        Bf4        0.156      Qb5     0.113     
+1       BK.14          Qd2          Qe1          -        Bxc3       0.222      Bc1     0.394     
+1       BK.15          Qxg7+        -            -        a3         0.268      Qf5     0.384     
+1       BK.16          Ne4          -            -        Bf4        0.559      Qg4     0.237     
+1       BK.17          h5           -            -        Nh4        2.174      Bf4     0.581     
+1       BK.18          Nb3          -            -        h4         0.629      Bb3     0.542     
+1       BK.19          Rxe4         -            -        Qxa6       0.231      Qb5     0.382     
+1       BK.20          g4           -            -        a4         0.237      Qc4     0.282     
+1       BK.21          Nh6          -            -        a4         0.616      Qh6     0.685     
+1       BK.22          Bxe4         -            -        Bxf6       0.002      Be5     0.002     
+1       BK.23          f6           -            -        Kf2        0.336      Qb6     0.225     
+1       BK.24          f4           -            -        exf5       0.745      Bd4     0.482     
+Tactical Accuracy For New Engine: 1/49 (2.0%)
+Tactical Accuracy For Old Engine: 3/49 (6.1%)
+2       K.01           Nf6+         -            -        h4         2.607      Rc3     4.045     
+2       K.02           Nxd4         -            -        g4         4.112      Qa4     2.595     
+2       K.03           Qf5          -            Rd1      Rd1        2.690      Qg3     2.642     
+2       K.04           Rxb2         -            -        c5         9.050      Qa5     6.667     
+2       K.05           Qxc1         -            -        Bxc8       0.950      Qd2     3.717     
+2       K.06           -            -            Rxa2     Rb5        1.372      Rc3     1.764     
+2       K.07           Bxe4         -            -        Bd4        16.564     Be5     3.247     
+2       K.08           h6           -            -        Qxb6       0.788      Qc4     2.134     
+2       K.09           Be2          -            -        Rc1        3.011      Qc3     3.090     
+2       K.10           Nxc3         -            -        c4         3.504      Qc4     2.819     
+2       K.11           Nf5          -            -        Rd2        1.117      Qf4     1.753     
+2       K.12           Rd6          -            -        a4         1.382      Qe3     2.894     
+2       K.13           Nxd5         -            -        Ne3        1.196      Rf4     1.181     
+2       K.14           Rxb2         -            -        Bf4        3.647      Qe2     5.592     
+2       K.15           Bxf5         -            -        Rd1        4.734      Qg5     4.400     
+2       K.16           b4           -            -        Ke3        0.028      b4      0.040     
+2       K.17           e5           -            -        e5         7.363      Qb5     2.938     
+2       K.18           Qc8          -            -        Qxe7       1.548      Qe6     2.677     
+2       K.19           Qxd7         -            -        Qb4        2.678      Qb5     2.434     
+2       K.20           Bg4          -            -        Kg2        0.053      Bf1     0.084     
+2       K.21           Kxb5         -            -        Kxc5       0.066      Bc6     0.267     
+2       K.22           Ba7          -            -        Ba7        0.074      Bc7     0.072     
+2       K.23           Ba6          -            -        g4         5.535      Bf5     3.382     
+2       K.24           Bxc6         -            -        Kf4        0.149      Bxc6    0.334     
+2       K.25           Bxd7         -            -        d4         0.098      Bxd7    0.097     
+2       BK.01          Qd1+         -            -        Qxa7       1.471      Qh3     4.181     
+2       BK.02          d5           -            -        e5         1.455      Rxc6    1.278     
+2       BK.03          f5           -            -        Rd1        3.963      Qc3     2.599     
+2       BK.04          e6           -            -        Qb5        0.591      Qc4     2.306     
+2       BK.05          Nd5          a4           -        h4         18.989     Qc4     5.479     
+2       BK.06          g6           -            -        a4         0.178      Rd5     0.368     
+2       BK.07          Nf6          -            -        Bb4        6.892      Qd3     2.379     
+2       BK.08          f5           -            -        Nc3        0.107      a4      0.148     
+2       BK.09          f5           -            -        Bb5        10.457     Qg4     3.194     
+2       K.11           Nf5          -            -        Rd2        1.117      Qf4     1.753
+2       K.12           Rd6          -            -        a4         1.382      Qe3     2.894
+2       K.13           Nxd5         -            -        Ne3        1.196      Rf4     1.181
+2       K.14           Rxb2         -            -        Bf4        3.647      Qe2     5.592
+2       K.15           Bxf5         -            -        Rd1        4.734      Qg5     4.400
+2       K.16           b4           -            -        Ke3        0.028      b4      0.040
+2       K.17           e5           -            -        e5         7.363      Qb5     2.938
+2       K.18           Qc8          -            -        Qxe7       1.548      Qe6     2.677
+2       K.19           Qxd7         -            -        Qb4        2.678      Qb5     2.434
+2       K.20           Bg4          -            -        Kg2        0.053      Bf1     0.084
+2       K.21           Kxb5         -            -        Kxc5       0.066      Bc6     0.267
+2       K.22           Ba7          -            -        Ba7        0.074      Bc7     0.072
+2       K.23           Ba6          -            -        g4         5.535      Bf5     3.382
+2       K.24           Bxc6         -            -        Kf4        0.149      Bxc6    0.334
+2       K.25           Bxd7         -            -        d4         0.098      Bxd7    0.097
+2       BK.01          Qd1+         -            -        Qxa7       1.471      Qh3     4.181
+2       BK.02          d5           -            -        e5         1.455      Rxc6    1.278
+2       BK.03          f5           -            -        Rd1        3.963      Qc3     2.599
+2       BK.04          e6           -            -        Qb5        0.591      Qc4     2.306
+2       BK.05          Nd5          a4           -        h4         18.989     Qc4     5.479
+2       BK.06          g6           -            -        a4         0.178      Rd5     0.368
+2       BK.07          Nf6          -            -        Bb4        6.892      Qd3     2.379
+2       BK.08          f5           -            -        Nc3        0.107      a4      0.148
+2       BK.09          f5           -            -        Bb5        10.457     Qg4     3.194
+2       K.21           Kxb5         -            -        Kxc5       0.066      Bc6     0.267
+2       K.22           Ba7          -            -        Ba7        0.074      Bc7     0.072
+2       K.23           Ba6          -            -        g4         5.535      Bf5     3.382
+2       K.24           Bxc6         -            -        Kf4        0.149      Bxc6    0.334
+2       K.25           Bxd7         -            -        d4         0.098      Bxd7    0.097
+2       BK.01          Qd1+         -            -        Qxa7       1.471      Qh3     4.181
+2       BK.02          d5           -            -        e5         1.455      Rxc6    1.278
+2       BK.03          f5           -            -        Rd1        3.963      Qc3     2.599
+2       BK.04          e6           -            -        Qb5        0.591      Qc4     2.306
+2       BK.05          Nd5          a4           -        h4         18.989     Qc4     5.479
+2       BK.06          g6           -            -        a4         0.178      Rd5     0.368
+2       BK.07          Nf6          -            -        Bb4        6.892      Qd3     2.379
+2       BK.08          f5           -            -        Nc3        0.107      a4      0.148
+2       BK.09          f5           -            -        Bb5        10.457     Qg4     3.194
+2       K.25           Bxd7         -            -        d4         0.098      Bxd7    0.097
+2       BK.01          Qd1+         -            -        Qxa7       1.471      Qh3     4.181
+2       BK.02          d5           -            -        e5         1.455      Rxc6    1.278
+2       BK.03          f5           -            -        Rd1        3.963      Qc3     2.599
+2       BK.04          e6           -            -        Qb5        0.591      Qc4     2.306
+2       BK.05          Nd5          a4           -        h4         18.989     Qc4     5.479
+2       BK.06          g6           -            -        a4         0.178      Rd5     0.368
+2       BK.07          Nf6          -            -        Bb4        6.892      Qd3     2.379
+2       BK.08          f5           -            -        Nc3        0.107      a4      0.148
+2       BK.09          f5           -            -        Bb5        10.457     Qg4     3.194
+2       BK.01          Qd1+         -            -        Qxa7       1.471      Qh3     4.181
+2       BK.02          d5           -            -        e5         1.455      Rxc6    1.278
+2       BK.03          f5           -            -        Rd1        3.963      Qc3     2.599
+2       BK.04          e6           -            -        Qb5        0.591      Qc4     2.306
+2       BK.05          Nd5          a4           -        h4         18.989     Qc4     5.479
+2       BK.06          g6           -            -        a4         0.178      Rd5     0.368
+2       BK.07          Nf6          -            -        Bb4        6.892      Qd3     2.379
+2       BK.08          f5           -            -        Nc3        0.107      a4      0.148
+2       BK.09          f5           -            -        Bb5        10.457     Qg4     3.194
+2       BK.03          f5           -            -        Rd1        3.963      Qc3     2.599
+2       BK.04          e6           -            -        Qb5        0.591      Qc4     2.306
+2       BK.05          Nd5          a4           -        h4         18.989     Qc4     5.479
+2       BK.06          g6           -            -        a4         0.178      Rd5     0.368
+2       BK.07          Nf6          -            -        Bb4        6.892      Qd3     2.379
+2       BK.08          f5           -            -        Nc3        0.107      a4      0.148
+2       BK.09          f5           -            -        Bb5        10.457     Qg4     3.194
+2       BK.05          Nd5          a4           -        h4         18.989     Qc4     5.479
+2       BK.06          g6           -            -        a4         0.178      Rd5     0.368
+2       BK.07          Nf6          -            -        Bb4        6.892      Qd3     2.379
+2       BK.08          f5           -            -        Nc3        0.107      a4      0.148
+2       BK.09          f5           -            -        Bb5        10.457     Qg4     3.194
+2       BK.08          f5           -            -        Nc3        0.107      a4      0.148
+2       BK.09          f5           -            -        Bb5        10.457     Qg4     3.194
+2       BK.09          f5           -            -        Bb5        10.457     Qg4     3.194
+2       BK.10          Ne5          -            -        Nxd4       4.893      Qe3     2.752
+2       BK.11          f4           -            -        f4         3.458      Qg4     2.647
+2       BK.12          Bf5          -            -        Qxf7       2.906      Qg4     3.073
+2       BK.13          b4           -            -        Bf4        1.199      Qb5     2.731
+2       BK.14          Qd2          Qe1          -        Qd2        4.294      Bc1     2.255
+2       BK.15          Qxg7+        -            -        Rxf6       1.617      Qf5     3.256
+2       BK.11          f4           -            -        f4         3.458      Qg4     2.647
+2       BK.12          Bf5          -            -        Qxf7       2.906      Qg4     3.073
+2       BK.13          b4           -            -        Bf4        1.199      Qb5     2.731
+2       BK.14          Qd2          Qe1          -        Qd2        4.294      Bc1     2.255
+2       BK.15          Qxg7+        -            -        Rxf6       1.617      Qf5     3.256
+2       BK.12          Bf5          -            -        Qxf7       2.906      Qg4     3.073
+2       BK.13          b4           -            -        Bf4        1.199      Qb5     2.731
+2       BK.14          Qd2          Qe1          -        Qd2        4.294      Bc1     2.255
+2       BK.15          Qxg7+        -            -        Rxf6       1.617      Qf5     3.256
+2       BK.13          b4           -            -        Bf4        1.199      Qb5     2.731
+2       BK.14          Qd2          Qe1          -        Qd2        4.294      Bc1     2.255
+2       BK.15          Qxg7+        -            -        Rxf6       1.617      Qf5     3.256
+2       BK.14          Qd2          Qe1          -        Qd2        4.294      Bc1     2.255
+2       BK.15          Qxg7+        -            -        Rxf6       1.617      Qf5     3.256
+2       BK.15          Qxg7+        -            -        Rxf6       1.617      Qf5     3.256
+2       BK.16          Ne4          -            -        Qh5        4.604      Qg4     2.118
+2       BK.17          h5           -            -        Bg5        9.081      Bf4     2.563
+2       BK.18          Nb3          -            -        b4         4.525      Bb3     3.637
+2       BK.19          Rxe4         -            -        Qxa6       2.462      Qb5     3.067
+2       BK.20          g4           -            -        a4         2.701      Qa6     2.379
+2       BK.21          Nh6          -            -        a4         6.567      Qh6     3.379
+2       BK.22          Bxe4         -            -        Bd4        0.047      Be5     0.022
+2       BK.23          f6           -            -        b4         1.947      Qb6     3.379
+2       BK.24          f4           -            -        bxc5       2.089      Bd4     2.953
+Tactical Accuracy For New Engine: 3/49 (6.1%)
+Tactical Accuracy For Old Engine: 3/49 (6.1%)
+3       K.01           Nf6+         -            -        Bxe7       32.148     Rc3     76.965
+3       K.02           Nxd4         -            -        g4         8.275      Qd5     57.264
+3       K.03           Qf5          -            Rd1      Rd1        6.014      Qg3     47.458
+3       K.04           Rxb2         -            -        Rxb2       54.612     Qa5     199.175   
+3       K.05           Qxc1         -            -        Bxc8       7.975      Bf3     75.827    
+3       K.06           -            -            Rxa2     Rc7        7.098      Rc4     34.459    
+3       K.07           Bxe4         -            -        Qe3        114.697    Be5     96.655    
+3       K.08           h6           -            -        Bf4        22.368     Qc8     30.998    
+3       K.09           Be2          -            -        Rc1        11.167     Qb4     80.857    
+3       K.10           Nxc3         -            -        Nxe6       16.325     Qa6     63.325    
+3       K.11           Nf5          -            -        Rd2        7.534      Qf4     24.117    
+3       K.12           Rd6          -            -        a4         9.171      Qe3     43.815    
+3       K.13           Nxd5         -            -        Rxf6       5.984      Rf4     15.990    
+3       K.14           Rxb2         -            -        Bf4        17.976     Qe4     116.045   
+3       K.15           Bxf5         -            -        Qxf8       21.054     Qg5     38.042    
+3       K.16           b4           -            -        Ke3        0.089      b4      0.174     
+3       K.17           e5           -            -        e5         33.023     Qb5     50.612    
+3       K.18           Qc8          -            -        Qxe7       9.182      Qd6     44.356    
+3       K.19           Qxd7         -            -        Nxg6       15.969     Qe4     38.204    
+3       K.20           Bg4          -            -        Kh2        0.399      Bf1     0.875     
+3       K.21           Kxb5         -            -        Kxc5       0.202      Bc6     1.640     
+3       K.22           Ba7          -            -        Ba7        0.162      Bc7     0.201     
+3       K.23           Ba6          -            -        b4         26.056     Bf5     68.504    
+3       K.24           Bxc6         -            -        Kf4        1.513      Bxc6    2.086     
+3       K.25           Bxd7         -            -        d4         0.263      Bxd7    0.376     
+3       BK.01          Qd1+         -            -        Qxa7       13.236     Qh3     61.267    
+3       BK.02          d5           -            -        e5         3.208      Rxc6    24.993    
+3       BK.03          f5           -            -        Rd1        13.084     Qc3     62.095    
+3       BK.04          e6           -            -        a4         8.582      Qc4     39.085    
+3       BK.05          Nd5          a4           -        Bxe6       54.800     Qxd6    83.217    
+3       BK.06          g6           -            -        b4         1.421      Rd5     2.895     
+3       BK.07          Nf6          -            -        Bb4        33.948     Qd3     50.538    
+3       BK.08          f5           -            -        Nc3        0.471      a4      1.049     
+3       BK.09          f5           -            -        Bxf6       25.566     Qg4     67.493    
+3       BK.10          Ne5          -            -        Bb2        65.876     Qe3     104.242   
+3       BK.11          f4           -            -        f4         28.744     Qg4     103.256   
+3       BK.12          Bf5          -            -        Qxf7       39.854     Qg4     63.628    
+3       BK.13          b4           -            -        a4         13.909     Qb5     36.593    
+3       BK.14          Qd2          Qe1          -        Qd2        6.244      Bc1     30.869    
+3       BK.15          Qxg7+        -            -        Qxg7       11.283     Qf5     49.568    
+3       BK.16          Ne4          -            -        h4         32.178     Qg4     48.930    
+3       BK.17          h5           -            -        Nh4        65.309     Nd4     60.270    
+3       BK.18          Nb3          -            -        b4         11.130     Bd3     86.803    
+3       BK.19          Rxe4         -            -        f5         18.422     Qb5     67.812    
+3       BK.20          g4           -            -        a4         8.563      Qa6     57.719    
+3       BK.21          Nh6          -            -        Nxd6       51.778     Qh6     79.176    
+3       BK.22          Bxe4         -            -        Qe3        2.885      Be5     5.345     
+3       BK.23          f6           -            -        Rd1        29.851     Qb6     87.603    
+3       BK.24          f4           -            -        g3         57.952     Nd4     78.912    
+Tactical Accuracy For New Engine: 4/49 (8.2%)
+Tactical Accuracy For Old Engine: 3/49 (6.1%)
+4       K.01           Nf6+         -            -        Bxe7       39.004     Rc3     3.119     
+4       K.02           Nxd4         -            -        g4         60.911     Qe3     4.998     
+4       K.03           Qf5          -            Rd1      Rd1        24.807     Qg3     6.923     
+4       K.04           Rxb2         -            -        Ne3        249.122    Qa5     6.160     
+4       K.05           Qxc1         -            -        Bxc8       12.074     Bf3     19.494    
+4       K.06           -            -            Rxa2     Rb5        24.656     Rc4     24.728    
+4       K.07           Bxe4         -            -        Qe1        498.888    Be5     122.186   
+4       K.08           h6           -            -        Qxb6       9.822      Qc8     4.520     
+4       K.09           Be2          -            -        Rc1        24.791     Qb4     9.348     
+4       K.10           Nxc3         -            -        Nb5        79.298     Kb1     23.096    
+4       K.11           Nf5          -            -        Rd2        15.160     Qf4     1.798     
+4       K.12           Rd6          -            -        h4         38.426     Qe3     4.404     
+4       K.13           Nxd5         -            -        Bxg6       17.319     Rf4     0.999     
+4       K.14           Rxb2         -            -        Bf4        67.793     Qa3     68.189    
+4       K.15           Bxf5         -            -        Qf6        136.985    Qg5     3.278     
+4       K.16           b4           -            -        Ke3        0.130      b4      0.204     
+4       K.17           e5           -            -        e5         160.745    Qb5     88.623    
+4       K.18           Qc8          -            -        Qxe7       19.306     Qd6     11.598    
+4       K.19           Qxd7         -            -        Rd2        35.101     Qe4     3.534     
+4       K.20           Bg4          -            -        Bg2        1.004      Bf1     0.070     
+4       K.21           Kxb5         -            -        Kxc5       0.374      Bc6     0.922     
+4       K.22           Ba7          -            -        Ba7        0.159      Bc7     0.416     
+4       K.23           Ba6          -            -        Qc2        181.402    Bf5     6.532     
+4       K.24           Bxc6         -            -        f4         4.277      Bxc6    1.663     
+4       K.25           Bxd7         -            -        e4         1.437      Bxd7    0.523     
+4       BK.01          Qd1+         -            -        Qxa7       45.354     Qh3     5.542     
+4       BK.02          d5           -            -        e5         18.408     Rxc6    1.485     
+4       BK.03          f5           -            -        Ne1        119.982    Qd4     72.857    
+4       BK.04          e6           -            -        e6         29.598     Qc4     15.383    
+4       BK.05          Nd5          a4           -        Bg5        351.661    Qc4     100.803   
+4       BK.06          g6           -            -        g6         2.475      Rd5     0.953     
+4       BK.07          Nf6          -            -        Bb4        90.307     Qd3     67.960    
+4       BK.08          f5           -            -        f5         1.918      a4      0.925     
+4       BK.09          f5           -            -        Re1        262.683    Qg4     7.707     
+4       BK.10          Ne5          -            -        Kf1        60.203     Qe3     7.716     
+4       BK.11          f4           -            -        f4         68.509     Qg4     4.742     
+4       BK.12          Bf5          -            -        Qxh7       41.226     Qg4     3.160     
+4       BK.13          b4           -            -        a3         62.676     Qb5     2.577     
+4       BK.14          Qd2          Qe1          -        Qd2        12.431     Bc1     60.118    
+4       BK.15          Qxg7+        -            -        Qxg7       14.844     Qf5     3.704     
+4       BK.16          Ne4          -            -        Qh5        99.074     Qg4     5.763     
+4       BK.17          h5           -            -        g5         215.078    Qe3     122.068   
+4       BK.18          Nb3          -            -        Be3        132.806    Qd2     50.501    
+4       BK.19          Rxe4         -            -        f5         43.515     Qb5     3.026     
+4       BK.20          g4           -            -        Nd3        88.247     Qa6     2.264     
+4       BK.21          Nh6          -            -        Ba3        182.793    Qh6     2.981     
+4       BK.22          Bxe4         -            -        Qe1        6.049      Be5     0.658     
+4       BK.23          f6           -            -        b4         63.552     Qb6     5.853     
+4       BK.24          f4           -            -        bxc5       38.039     Nd4     2.826     
+Tactical Accuracy For New Engine: 6/49 (12.2%)
+Tactical Accuracy For Old Engine: 3/49 (6.1%)  
+
+
+----------------------------------------------------------------------------------------------
+Position ID    Expected Result    Colour : Nuanced Result    Colour : Material Result    Moves
+----------------------------------------------------------------------------------------------
+K.01           white              black  : loss               white : win                54
+K.01           white              white  : win                black : loss               68
+K.02           black              black  : win                white : loss               43
+K.02           black              white  : loss               black : win                54
+K.03           black              black  : draw               white : draw               1000
+K.03           black              white  : win                black : loss               29
+K.04           white              black  : loss               white : win                56
+K.04           white              white  : win                black : loss               96
+K.05           black              black  : loss               white : win                42
+K.05           black              white  : loss               black : win                49
+K.06           white              black  : win                white : loss               58
+K.06           white              white  : loss               black : win                56
+K.07           black              black  : win                white : loss               50
+K.07           black              white  : loss               black : win                92
+K.08           both               black  : win                white : loss               50
+K.08           both               white  : loss               black : win                22
+K.10           black              black  : win                white : loss               57
+K.10           black              white  : draw               black : draw               5
+K.11           white              black  : win                white : loss               21
+K.11           white              white  : loss               black : win                74
+K.12           both               black  : win                white : loss               20
+K.12           both               white  : win                black : loss               49
+K.13           white              black  : win                white : loss               1000
+K.13           white              white  : win                black : loss               1000
+K.14           white              black  : win                white : loss               67
+K.14           white              white  : win                black : loss               39
+K.15           white              black  : loss               white : win                72
+K.15           white              white  : win                black : loss               52
+K.16           white              black  : draw               white : draw               1000
+K.16           white              white  : loss               black : win                19
+K.17           white              black  : draw               white : draw               1000
+K.17           white              white  : loss               black : win                54
+K.18           black              black  : win                white : loss               38
+K.18           black              white  : win                black : loss               39
+K.19           white              black  : win                white : loss               51
+K.19           white              white  : win                black : loss               69
+K.20           white              black  : win                white : loss               45
+K.20           white              white  : draw               black : draw               157
+K.21           black              black  : loss               white : win                28
+K.21           black              white  : win                black : loss               32
+K.22           black              black  : draw               white : draw               3
+K.22           black              white  : draw               black : draw               123
+K.23           white              black  : draw               white : draw               1000
+K.23           white              white  : win                black : loss               58
+K.24           white              black  : win                white : loss               37
+K.24           white              white  : win                black : loss               1000
+K.25           white              black  : win                white : loss               30
+K.25           white              white  : draw               black : draw               49
+BK.01          black              black  : loss               white : win                30
+BK.01          black              white  : loss               black : win                25
+BK.02          white              black  : win                white : loss               48
+BK.02          white              white  : loss               black : win                40
+BK.03          white              black  : draw               white : draw               1000
+BK.03          white              white  : win                black : loss               51
+BK.04          white              black  : win                white : loss               81
+BK.04          white              white  : loss               black : win                64
+BK.05          white              black  : win                white : loss               46
+BK.05          white              white  : loss               black : win                34
+BK.06          white              black  : win                white : loss               30
+BK.06          white              white  : win                black : loss               51
+BK.07          white              black  : win                white : loss               85
+BK.07          white              white  : loss               black : win                38
+BK.08          white              black  : win                white : loss               1000
+BK.08          white              white  : win                black : loss               55
+BK.09          white              black  : draw               white : draw               65
+BK.09          white              white  : win                black : loss               1000
+BK.10          black              black  : win                white : loss               70
+BK.10          black              white  : win                black : loss               55
+BK.11          white              black  : win                white : loss               65
+BK.11          white              black  : win                white : loss               65
+BK.11          white              white  : draw               black : draw               1000
+BK.12          both               black  : draw               white : draw               1000
+BK.12          both               white  : draw               black : draw               1000
+BK.13          white              black  : win                white : loss               1000
+BK.13          white              white  : win                black : loss               65
+BK.14          white              black  : win                white : loss               61
+BK.14          white              white  : draw               black : draw               80
+BK.15          white              black  : win                white : loss               54
+BK.15          white              white  : win                black : loss               77
+BK.16          white              black  : win                white : loss               77
+BK.16          white              black  : win                white : loss               77
+BK.17          white              black  : win                white : loss               51
+BK.17          white              white  : win                black : loss               87
+BK.18          both               black  : win                white : loss               57
+BK.18          both               white  : win                black : loss               111
+BK.19          black              black  : win                white : loss               41
+BK.19          black              white  : loss               black : win                50
+BK.20          white              black  : win                white : loss               40
+BK.20          white              white  : win                black : loss               69
+BK.21          white              black  : win                white : loss               73
+BK.21          white              white  : loss               black : win                60
+BK.22          black              black  : win                white : loss               50
+BK.22          black              white  : loss               black : win                92
+BK.23          black              black  : draw               white : draw               1000
+BK.23          black              white  : win                black : loss               77
+BK.24          white              black  : win                white : loss               49
+BK.24          white              white  : loss               black : win                54
+
+==========================================================================================
+Nuanced Engine
+==========================================================================================
+Total Games: 96
+Total: 57 wins, 23 losses, 16 draws
+Overall: 59.4% wins, 24.0% losses, 16.7% draws
+
+--- EXPECTED COLOR GAMES ---
+Games: 34
+Wins: 23 (67.6%)
+Losses: 9 (26.5%)
+Draws: 2 (5.9%)
+
+--- UNEXPECTED COLOR GAMES ---
+Games: 62
+Wins: 34 (54.8%)
+Losses: 14 (22.6%)
+Draws: 14 (22.6%)
+
+==========================================================================================
+Material Engine
+==========================================================================================
+Total Games: 96
+Total: 23 wins, 57 losses, 16 draws
+Overall: 24.0% wins, 59.4% losses, 16.7% draws
+
+--- EXPECTED COLOR GAMES ---
+Games: 34
+Wins: 9 (26.5%)
+Losses: 23 (67.6%)
+Draws: 2 (5.9%)
+
+--- UNEXPECTED COLOR GAMES ---
+Games: 62
+Wins: 14 (22.6%)
+Losses: 34 (54.8%)
+Draws: 14 (22.6%)
+
+==========================================================================================
+Neutral Bot
+==========================================================================================
+Total Games: 96
+Total: 43 wins, 45 losses, 8 draws
+Overall: 44.8% wins, 46.9% losses, 8.3% draws

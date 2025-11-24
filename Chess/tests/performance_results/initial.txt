@@ -1,0 +1,98 @@
+-----------------------------------------------------------
+                  EVALUATION TEST RESULTS
+Evaluation Performance: 0.28998979995958507 seconds for 1000 iterations
+ Average time per evaluation: 0.00028998979995958506 seconds    
+-------------------------------------------------------------
+.
+-----------------------------------------------------------
+                MEMORY USAGE TEST RESULTS
+
+Max memory usage for depth 3 search: 64.7890625 MiB
+-------------------------------------------------------------
+.
+-----------------------------------------------------------
+               MOVE GENERATION TEST RESULTS
+    no. called     piece type      time taken     time/call
+    1000               R           0.0057552000      0.0000057552
+    1000               N           0.0037354000      0.0000037354
+    1000               B           0.0071434000      0.0000071434
+    1000               Q           0.0139240000      0.0000139240
+    1000               K           0.0048678000      0.0000048678
+    1000               P           0.0016660000      0.0000016660
+-----------------------------------------------------------
+.
+-----------------------------------------------------------
+                    PERFT TEST RESULTS
+    depth            time taken        positions per second
+
+    1            0.00826716423034668        2419.2092285508293
+
+    2            0.14504766464233398        2757.7141692445766
+
+    3            3.1681602001190186        2809.8326592403937
+
+    4            77.5705680847168        2543.2455230254905
+
+Total time taken for perft depths 1-4: 77.5705680847168
+Total positions viewed: 206604
+-----------------------------------------------------------
+.
+-----------------------------------------------------------
+                  BOTTLENECK TEST RESULTS
+         26530197 function calls (26520875 primitive calls) in 10.643 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    78628    1.632    0.000    8.581    0.000 arbiter.py:266(get_all_attacks)
+   638579    1.182    0.000    1.544    0.000 pawn.py:70(get_attacks)
+   237498    0.822    0.000    1.244    0.000 bishop.py:25(get_moves)
+   246178    0.814    0.000    1.156    0.000 rook.py:25(get_moves)
+   166252    0.758    0.000    1.228    0.000 knight.py:25(get_moves)
+  5584437    0.675    0.000    0.675    0.000 piece.py:39(get_colour)
+  7129365    0.650    0.000    0.650    0.000 board.py:122(get_piece)
+    79053    0.477    0.000    1.048    0.000 king.py:25(get_moves)
+   758554    0.373    0.000    0.507    0.000 move.py:15(__init__)
+    27127    0.333    0.000    0.470    0.000 arbiter.py:236(get_pieces)
+  2005769    0.263    0.000    0.263    0.000 piece.py:36(get_type)
+  2871935    0.251    0.000    0.251    0.000 board.py:47(get_board)
+  2782453    0.248    0.000    0.248    0.000 {built-in method builtins.len}
+  1662718    0.222    0.000    0.222    0.000 {method 'append' of 'list' objects}
+    79173    0.207    0.000    1.242    0.000 queen.py:27(get_moves)
+     8902    0.198    0.000    0.302    0.000 arbiter.py:114(insufficient_material)
+     8902    0.170    0.000    9.408    0.001 son_of_anton.py:45(evaluate)
+    79053    0.150    0.000    0.209    0.000 king.py:110(can_long_castle)
+    78616    0.147    0.000    8.750    0.000 arbiter.py:29(is_in_check)
+    79053    0.142    0.000    0.196    0.000 king.py:73(can_short_castle)
+    31911    0.108    0.000    5.132    0.000 arbiter.py:172(filter_moves)
+   284830    0.091    0.000    0.125    0.000 son_of_anton.py:85(get_piece_value)
+   158346    0.088    0.000    0.088    0.000 piece.py:16(__init__)
+    52330    0.080    0.000    0.156    0.000 move.py:113(revert_move)
+    52318    0.078    0.000    0.155    0.000 move.py:48(make_move)
+   156954    0.058    0.000    0.083    0.000 board.py:76(add_piece)
+   264422    0.055    0.000    0.055    0.000 piece.py:54(update_position)
+    17804    0.050    0.000    6.610    0.000 arbiter.py:90(is_in_stalemate)
+    79173    0.046    0.000    0.096    0.000 rook.py:17(__init__)
+    11079    0.044    0.000    0.091    0.000 pawn.py:25(get_moves)
+   156954    0.041    0.000    0.041    0.000 board.py:99(remove_piece)
+    79173    0.036    0.000    0.075    0.000 bishop.py:17(__init__)
+   9323/1    0.028    0.000   10.643   10.643 son_of_anton.py:111(search)
+   156388    0.027    0.000    0.027    0.000 piece.py:45(get_times_moved)
+    17804    0.017    0.000    2.050    0.000 arbiter.py:51(is_in_checkmate)
+    52318    0.015    0.000    0.015    0.000 piece.py:51(decrement_times_moved)
+    52318    0.014    0.000    0.014    0.000 piece.py:48(increment_times_moved)
+   138170    0.014    0.000    0.014    0.000 move.py:42(get_flag)
+    78616    0.014    0.000    0.014    0.000 piece.py:42(get_position)
+      421    0.008    0.000    1.148    0.003 son_of_anton.py:22(generate_all_legal_moves)
+    42938    0.006    0.000    0.006    0.000 move.py:45(is_check)
+     8902    0.004    0.000    0.005    0.000 arbiter.py:169(fifty_move_rule)
+     8922    0.003    0.000    0.003    0.000 {built-in method builtins.max}
+     6736    0.002    0.000    0.002    0.000 {method 'extend' of 'list' objects}
+     8902    0.001    0.000    0.001    0.000 board.py:63(get_half_move_clock)
+      400    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+      421    0.000    0.000    0.000    0.000 board.py:72(get_current_colour)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       77    0.000    0.000    0.000    0.000 board.py:54(get_last_piece_moved)
+        1    0.000    0.000   10.643   10.643 test_performance.py:137(profile_search)
+
+-------------------------------------------------------------

@@ -1,0 +1,12 @@
+Tactical Accuracy For New Engine: 5/49 (10.2%)
+Tactical Accuracy For Old Engine: 2/49 (4.1%)
+Depth 2 search
+Tactical Accuracy For New Engine: 0/49 (0.0%)
+Tactical Accuracy For Old Engine: 2/49 (4.1%)
+Depth 3 search
+Tactical Accuracy For New Engine: 1/49 (2.0%)
+Tactical Accuracy For Old Engine: 3/49 (6.1%)
+Depth 4 search
+Tactical Accuracy For New Engine: 1/49 (2.0%)
+Tactical Accuracy For Old Engine: 3/49 (6.1%)
+

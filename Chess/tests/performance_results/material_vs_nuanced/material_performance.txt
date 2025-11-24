@@ -1,0 +1,158 @@
+-----------------------------------------------------------
+                  FUNCTION TEST RESULTS
+no. calls       time             time/call       function    
+-----------------------------------------------------------  
+1000          0.0485572000    0.0000485572       get_all_moves  
+1000          0.0216320000    0.0000216320       get_all_attacks
+1000          1.3211994000    0.0013211994       evaluate       
+1000          0.6281965000    0.0006281965       is_in_checkmate
+1000          1.1286858000    0.0011286858       is_in_stalemate
+1000          0.0041027999    0.0000041028       is_in_insufficient_material
+1000          0.0001830000    0.0000001830       is_in_fifty_move_rule
+1000          0.0002511999    0.0000002512       is_in_repetition
+1000          0.0042622000    0.0000042622       generate_material_count
+-----------------------------------------------------------
+.
+-----------------------------------------------------------
+               PERFT WITH PERFT TEST RESULTS
+depth       expected        actual        time        pos/sec
+-----------------------------------------------------------  
+1           20           20            0.001s           30,153
+2           400          400           0.034s           11,613
+3           8,902        8,902         0.699s           12,729
+4           197,281      197,281      11.657s           16,924
+-----------------------------------------------------------
+Total time: 12.392s
+Total nodes: 206,603
+Average: 16,672 positions/second
+.
+-----------------------------------------------------------
+               PERFT WITH SEARCH TEST RESULTS
+depth       expected        actual        time        pos/sec
+-----------------------------------------------------------
+
+1           21              1             0.028s         717
+
+2           421             1             0.136s       2,934
+
+3           9,323           1             0.537s      16,590
+
+4           206,604         1             2.059s      95,811
+
+5           5,072,213       1             8.555s     568,742
+
+6           124,132,537     1            32.709s   3,639,942
+-----------------------------------------------------------
+.
+-----------------------------------------------------------
+                  BOTTLENECK TEST RESULTS
+-----------------------------------------------------------
+         635946 function calls (635903 primitive calls) in 0.302 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     3725    0.040    0.000    0.142    0.000 move_generator.py:130(get_all_attacks)
+    23364    0.037    0.000    0.061    0.000 bit_sliding.py:58(get_sliding_attacks)
+     7364    0.028    0.000    0.080    0.000 bit_move.py:141(make_update)
+     7364    0.023    0.000    0.034    0.000 bitboard.py:163(update_occupancy)
+     7796    0.020    0.000    0.022    0.000 bit_knight.py:55(get_knight_attacks)
+     7364    0.013    0.000    0.014    0.000 bit_move.py:83(handle_remove_pieces)
+    76373    0.010    0.000    0.010    0.000 {method 'bit_length' of 'int' objects}
+    88368    0.009    0.000    0.009    0.000 {method 'startswith' of 'str' objects}
+    51918    0.009    0.000    0.009    0.000 {method 'split' of 'str' objects}
+     3898    0.009    0.000    0.010    0.000 bit_king.py:77(get_king_attacks)
+   119953    0.009    0.000    0.009    0.000 board.py:67(get_board)
+    11670    0.008    0.000    0.008    0.000 precompute.py:74(generate_bishop_movement_mask)
+      173    0.008    0.000    0.254    0.001 bit_arbiter.py:104(filter_moves)
+     4202    0.007    0.000    0.010    0.000 bit_move.py:31(additional_settup)
+    11694    0.007    0.000    0.007    0.000 precompute.py:19(generate_rook_movement_mask)
+     7364    0.004    0.000    0.005    0.000 bit_move.py:116(handle_placing_piece)
+     3682    0.004    0.000    0.055    0.000 move.py:127(undo_move)
+     1378    0.004    0.000    0.013    0.000 bit_pawn.py:21(get_pawn_moves)
+    46776    0.004    0.000    0.004    0.000 {built-in method builtins.abs}
+     3682    0.004    0.000    0.051    0.000 move.py:99(make_move)
+      173    0.004    0.000    0.034    0.000 move_generator.py:75(get_all_moves)
+     3725    0.003    0.000    0.145    0.000 bit_arbiter.py:28(is_in_check)
+    15750    0.003    0.000    0.003    0.000 {method 'items' of 'dict' objects}
+     5103    0.003    0.000    0.003    0.000 bit_pawn.py:153(get_pawn_attacks)
+     3682    0.002    0.000    0.003    0.000 stack.py:13(pop)
+    11923    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+     4202    0.002    0.000    0.013    0.000 bit_move.py:25(__init__)
+     2756    0.002    0.000    0.029    0.000 move_generator.py:38(get_moves)
+       63    0.002    0.000    0.218    0.003 evaluation.py:107(evaluate_material)
+      346    0.001    0.000    0.006    0.000 bit_knight.py:17(get_knight_moves)
+     4202    0.001    0.000    0.011    0.000 move.py:18(__init__)
+     3682    0.001    0.000    0.002    0.000 stack.py:9(push)
+     3682    0.001    0.000    0.001    0.000 bitboard.py:320(increment_position_hash)
+     7364    0.001    0.000    0.001    0.000 board.py:217(flip_colour)
+     3682    0.001    0.000    0.004    0.000 board.py:91(pop_last_move)
+     3682    0.001    0.000    0.003    0.000 board.py:99(push_move)
+     3682    0.001    0.000    0.001    0.000 bitboard.py:328(decrement_position_hash)
+    10880    0.001    0.000    0.001    0.000 move.py:166(get_flag)
+     7364    0.001    0.000    0.001    0.000 bitboard.py:309(set_current_zobrist)
+     7447    0.001    0.000    0.001    0.000 bitboard.py:301(get_current_zobrist)
+     1032    0.001    0.000    0.005    0.000 bit_sliding.py:20(get_sliding_moves)
+     7364    0.001    0.000    0.001    0.000 bitboard.py:294(get_zobrist)
+     3682    0.001    0.000    0.001    0.000 {method 'pop' of 'list' objects}
+      173    0.001    0.000    0.003    0.000 bit_king.py:24(get_king_moves)
+     3682    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+     3682    0.000    0.000    0.000    0.000 stack.py:6(is_empty)
+     2756    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+     4604    0.000    0.000    0.000    0.000 board.py:209(get_colour)
+    79/40    0.000    0.000    0.296    0.007 bot.py:44(alpha_beta_search)
+       22    0.000    0.000    0.001    0.000 move_order.py:12(order_moves)
+       63    0.000    0.000    0.001    0.000 bit_arbiter.py:82(generate_material_count)
+      173    0.000    0.000    0.000    0.000 bit_king.py:116(can_short_castle)
+     2735    0.000    0.000    0.000    0.000 board.py:198(set_half_move_clock)
+     2798    0.000    0.000    0.000    0.000 board.py:165(get_half_move_clock)
+     2735    0.000    0.000    0.000    0.000 board.py:190(reset_half_move_clock)
+      819    0.000    0.000    0.000    0.000 move_order.py:82(get_move_key)
+      173    0.000    0.000    0.000    0.000 bit_king.py:148(can_long_castle)
+        2    0.000    0.000    0.302    0.151 bot.py:215(_search_root)
+      947    0.000    0.000    0.000    0.000 board.py:181(decrement_half_move_clock)
+      756    0.000    0.000    0.000    0.000 {method 'count' of 'str' objects}
+      421    0.000    0.000    0.000    0.000 move_order.py:131(get_history_score)
+    63/59    0.000    0.000    0.260    0.004 bot.py:295(quiesce)
+      947    0.000    0.000    0.000    0.000 board.py:173(increment_half_move_clock)
+      756    0.000    0.000    0.000    0.000 {built-in method builtins.bin}
+      439    0.000    0.000    0.000    0.000 move_order.py:108(is_killer_move)
+       63    0.000    0.000    0.108    0.002 bit_arbiter.py:44(is_in_checkmate)
+       63    0.000    0.000    0.107    0.002 bit_arbiter.py:63(is_in_stalemate)
+       44    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+      346    0.000    0.000    0.000    0.000 bitboard.py:200(get_rook_moved)
+      666    0.000    0.000    0.000    0.000 bitboard.py:285(get_rook_pos)
+      421    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      346    0.000    0.000    0.000    0.000 bitboard.py:186(get_king_moved)
+       63    0.000    0.000    0.001    0.000 arbiter.py:123(is_in_insufficient_material)
+      477    0.000    0.000    0.000    0.000 move.py:182(get_is_capture)
+       63    0.000    0.000    0.218    0.003 materialEvalEngine.py:12(evaluate)
+       63    0.000    0.000    0.000    0.000 arbiter.py:170(is_in_fifty_move_rule)
+      421    0.000    0.000    0.000    0.000 move_order.py:49(<lambda>)
+       19    0.000    0.000    0.000    0.000 move_order.py:87(store_killer_move)
+        1    0.000    0.000    0.302    0.302 bot.py:159(find_best_move)
+       19    0.000    0.000    0.000    0.000 move_order.py:117(update_history)
+       80    0.000    0.000    0.000    0.000 bitboard.py:266(decrement_rook_moved)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       80    0.000    0.000    0.000    0.000 bitboard.py:247(increment_rook_moved)
+       40    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       81    0.000    0.000    0.000    0.000 transpositionNode.py:2(__init__)
+       39    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       64    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 move_order.py:76(clear_search_data)
+       30    0.000    0.000    0.000    0.000 bitboard.py:233(decrement_king_moved)
+       30    0.000    0.000    0.000    0.000 bitboard.py:219(increment_king_moved)
+        1    0.000    0.000    0.302    0.302 test_performance.py:254(profile_search)
+       20    0.000    0.000    0.000    0.000 move_order.py:58(moves_equal)
+        2    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+
+
+.
+-----------------------------------------------------------
+                SYSTEM RESOURCE TEST RESULTS
+resource                measurement                unit
+-----------------------------------------------------------
+Memory                  511.38340234375             MB
+CPU                     0.00000000000             %
+-----------------------------------------------------------
